@@ -3,9 +3,10 @@ export const SITE_CONFIG = {
   portfolioUrl: '#portfolio', // troque pelo link do portfólio
   discordUrl: '#contato', // troque pelo link do Discord
   bio: 'Tenho 15 anos e crio designs e Carrds com uma carinha única para cada projeto. Gosto de transformar ideias, referências e sentimentos em algo visual e especial.',
+
   characterImages: {
-    left: null as string | null, // exemplo: '/characters/marin-left.png'
-    right: null as string | null, // exemplo: '/characters/marin-right.png'
+    left: 'public/characters/marin-left.png',
+    right: 'public/characters/marin-right.png',
   },
   rules: [
     { title: 'pagamento', text: 'O pagamento deve ser combinado antes do início do projeto.' },
@@ -16,14 +17,14 @@ export const SITE_CONFIG = {
   ],
   prices: {
     carrds: [
-      { label: 'Carrd simples', price: 'R$ XX' },
-      { label: 'Carrd personalizado', price: 'R$ XX' },
-      { label: 'Carrd completo', price: 'R$ XX' },
+      { label: 'Carrd simples', price: 'R$2,00' },
+      { label: 'Carrd personalizado', price: 'R$4,00' },
+      { label: 'Carrd completo', price: 'R$7,00' },
     ],
     designs: [
-      { label: 'Design simples', price: 'R$ XX' },
-      { label: 'Banner', price: 'R$ XX' },
-      { label: 'Layout', price: 'R$ XX' },
+      { label: 'Design simples', price: 'R$4,00' },
+      { label: 'Banner', price: 'R$2,00' },
+      { label: 'Layout', price: 'R$6,00' },
       { label: 'Outros', price: 'consultar' },
     ],
   },

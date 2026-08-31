@@ -36,3 +36,11 @@ next-env.d.ts
 /.wrangler/
 /outputs/
 /work/
+node_modules/
+.next/
+.vercel/
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
