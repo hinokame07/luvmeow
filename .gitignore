@@ -44,3 +44,8 @@ node_modules/
 .env.production
 .env.development
 .env.*.local
+dist/
+build/
+.env.development.local
+.env.test.local
+.env.production.local
