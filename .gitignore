@@ -51,3 +51,6 @@ build/
 .env.production.local
 .vercel
 .env*
+
+.vercel
+.env*
