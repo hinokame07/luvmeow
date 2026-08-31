@@ -51,3 +51,4 @@ build/
 .env.production.local
 .vercel
 .env*
+sla.ps1
